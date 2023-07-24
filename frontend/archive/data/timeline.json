@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "date": "06 July 2012",
+    "event": "Graduated from college",
+    "event_img": "../assets/icons/timeline/gradcap.svg",
+    "alt": "graduation cap",
+    "where": "School",
+    "name": "Lycée Henri Gaudier-Brzeska",
+    "title": "Diploma obtained",
+    "description": "Baccalaureate in Industrial Sciences and Technologies with a specialization in Civil Engineering",
+    "location": "Orléans - France",
+    "contract": ""
+  },
+  {
+    "id": "2",
+    "date": "12 June 2014",
+    "event": "Graduated from university",
+    "event_img": "../assets/icons/timeline/gradcap.svg",
+    "alt": "graduation cap",
+    "where": "School",
+    "name": "Lycée des métiers du Bâtiment",
+    "title": "Diploma obtained",
+    "description": "Higher Technician's Certificate in Building Construction",
+    "location": "Felletin - France",
+    "contract": ""
+  },
+  {
+    "id": "3",
+    "date": "18 August 2014",
+    "event": "First job as Operation officer",
+    "event_img": "",
+    "alt": "",
+    "where": "Company",
+    "name": "Amazon",
+    "description": "Joining Amazon as an operations officer marked my first job experience, as the challenging circumstances in the building industry during that time hindered opportunities in that field.",
+    "description2": "While i worked at Amazon as an operations officer in the customer return department, I honed my skills in meticulousness and attention to detail.<br />This experience not only taught me the importance of maintaining high standards but also allowed me to master time management and multitasking abilities. Furthermore, I have acquired additional skills such as effective communication and adapting to fast-paced environments.",
+    "location": "Orléans - France",
+    "contract": "Interim contract"
+  },
+  {
+    "id": "1",
+    "date": "06 July 2012",
+    "event": "Graduated from college",
+    "event_img": "../assets/icons/timeline/gradcap.svg",
+    "alt": "graduation cap",
+    "where": "School",
+    "name": "Lycée Henri Gaudier-Brzeska",
+    "title": "Diploma obtained",
+    "description": "Baccalaureate in Industrial Sciences and Technologies with a specialization in Civil Engineering",
+    "location": "Orléans - France",
+    "contract": ""
+  },
+  {
+    "id": "1",
+    "date": "06 July 2012",
+    "event": "Graduated from college",
+    "event_img": "../assets/icons/timeline/gradcap.svg",
+    "alt": "graduation cap",
+    "where": "School",
+    "name": "Lycée Henri Gaudier-Brzeska",
+    "title": "Diploma obtained",
+    "description": "Baccalaureate in Industrial Sciences and Technologies with a specialization in Civil Engineering",
+    "location": "Orléans - France",
+    "contract": ""
+  },
+  {
+    "id": "1",
+    "date": "06 July 2012",
+    "event": "Graduated from college",
+    "event_img": "../assets/icons/timeline/gradcap.svg",
+    "alt": "graduation cap",
+    "where": "School",
+    "name": "Lycée Henri Gaudier-Brzeska",
+    "title": "Diploma obtained",
+    "description": "Baccalaureate in Industrial Sciences and Technologies with a specialization in Civil Engineering",
+    "location": "Orléans - France",
+    "contract": ""
+  }
+]

@@ -1,0 +1,19 @@
+.review_img img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.review_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.review_title img:hover {
+  transform: scale(1.2);
+}

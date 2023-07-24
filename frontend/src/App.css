@@ -1,0 +1,318 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: theme("colors.dark");
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: theme("colors.primary");
+  border-radius: 1rem;
+}
+
+@font-face {
+  font-family: "Oswald";
+  font-weight: 700;
+  src: url("../assets/fonts/Oswald-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Oswald";
+  font-weight: 400;
+  src: url("../assets/fonts/Oswald-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Oswald";
+  font-weight: 300;
+  src: url("../assets/fonts/Oswald-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("../assets/fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../assets/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  src: url("../assets/fonts/Roboto-Light.ttf") format("truetype");
+}
+
+@layer base {
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 80px 0 32px 0;
+    margin-inline: clamp(24px, 7.5vw, 192px);
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    @media screen and (min-width: theme("screens.md")) {
+      padding-top: 32px;
+    }
+
+    @media screen and (min-width: theme("screens.xl")) {
+      margin-inline: clamp(192px, 7.5vw, 288px);
+    }
+
+    @media screen and (min-width: theme("screens.2xl")) {
+      margin-inline: clamp(288px, 20vw, 576px);
+    }
+  }
+
+  hr {
+    margin: 0.5rem auto;
+    width: 50%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0)
+    );
+    @media screen and (min-width: 45em) {
+      width: 30%;
+    }
+  }
+}
+
+/*= ==================================
+        Intersection animation
+    ====================================== */
+.menu-visible {
+  opacity: 1;
+  transition: 0.5s ease-in-out;
+}
+
+.menu-hidden {
+  opacity: 0;
+  transition: 2s ease-in-out;
+}
+
+/* = Home = */
+.hidden-title {
+  position: relative;
+  opacity: 0;
+  filter: blur(10px);
+  transform: translateY(-100%);
+  transition: all 2s;
+}
+.hidden-title:nth-child(2) {
+  transform: translateY(100%);
+}
+
+.show-el {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+.show-el:nth-child(2) {
+  transform: translateY(0);
+}
+
+/* = Testimonials = */
+.hidden-left {
+  opacity: 0;
+  filter: blur(8px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+.hidden-right {
+  opacity: 0;
+  filter: blur(8px);
+  transform: translateX(100%);
+  transition: all 1s;
+}
+
+.show-item {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0%);
+}
+.show-item:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.show-item:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.show-item:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.show-item:nth-child(4) {
+  transition-delay: 0.4s;
+}
+
+/* = Contact = */
+.hidden-form {
+  opacity: 0;
+  filter: blur(8px);
+  transform: translateY(100%);
+  transition: all 1s;
+}
+
+.show-form {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0%);
+}
+.show-form:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.show-form:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.show-form:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.show-form:nth-child(4) {
+  transition-delay: 0.6s;
+}
+
+/*= ==================================
+        Swiper react
+    ====================================== */
+.swiper {
+  width: 100%;
+
+  @media (max-width: 500px) {
+    overflow: visible;
+  }
+}
+
+.swiper-slide {
+  width: 29rem;
+  height: 34rem;
+  background-color: theme("colors.dark");
+  border: 1px solid theme("colors.primary");
+  border-radius: 1rem;
+
+  @media (max-width: 500px) {
+    width: 18rem;
+    height: 28rem;
+  }
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+
+.test .slider-arrow::after {
+  content: "";
+}
+
+.swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+  border: 1px solid theme("colors.light");
+}
+
+.swiper-pagination-bullet-active {
+  background: theme("colors.primary");
+  border: 1px solid theme("colors.dark");
+  width: 12px;
+  height: 12px;
+}
+
+/*= ==================================
+        Toggle switch
+    ====================================== */
+
+#toggle input {
+  background-color: theme("colors.light");
+}
+
+#toggle input:checked ~ span:last-child {
+  --tw-translate-x: 90%;
+}
+
+/*= ==================================
+        Snake game
+    ====================================== */
+.wrapper {
+  width: 65vmin;
+  height: 70vmin;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1rem;
+  background: #293447;
+  box-shadow: 0 5px 20px rgba(38, 172, 217, 0.4);
+}
+.game-details {
+  color: #b8c6dc;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 20px 27px;
+  display: flex;
+  justify-content: space-between;
+}
+.play-board {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  background: #212837;
+  grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+}
+.play-board .food {
+  background: #ff003d;
+}
+.play-board .head {
+  background: #60cbff;
+}
+.controls {
+  display: none;
+  justify-content: space-between;
+}
+.controls i {
+  padding: 25px 0;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #b8c6dc;
+  width: calc(100% / 4);
+  cursor: pointer;
+  border-right: 1px solid #171b26;
+}
+@media screen and (max-width: 800px) {
+  .wrapper {
+    width: 90vmin;
+    height: 115vmin;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .game-details {
+    font-size: 1rem;
+    padding: 15px 27px;
+  }
+  .controls {
+    display: flex;
+  }
+  .controls i {
+    padding: 15px 0;
+    font-size: 1rem;
+  }
+}
