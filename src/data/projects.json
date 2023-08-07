@@ -62,10 +62,10 @@
   {
     "projectid": 5,
     "name": "Origins E-sport",
-    "description": "Currently in development",
+    "description": "Origins E-Sport combines the cutting-edge technologies and experiences of all E-Sports games and On-Rewind! This project was a request of Origins Digital.",
     "img": "../assets/img/project/origins.png",
-    "github": "",
-    "website": "",
+    "github": "https://github.com/Arkantik/Origins-Esport",
+    "website": "https://origins-e-sport.remote-fr-2.wilders.dev/",
     "tool": "../assets/icons/tools/figma.svg",
     "techno_images": [
       "../assets/icons/languages/css.svg",
