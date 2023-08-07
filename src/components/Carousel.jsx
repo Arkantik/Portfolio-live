@@ -56,29 +56,35 @@ export default function Carousel({ projects }) {
                     className="inline-flex p-2"
                   />
                 ))}
-                <img
-                  src={project.tool}
-                  alt={project.tool}
-                  className="p-2 md:inline-flex"
-                />
+                {project.tool !== "" && (
+                  <img
+                    src={project.tool}
+                    alt={project.tool}
+                    className="p-2 md:inline-flex"
+                  />
+                )}
               </div>
               <div className="flex justify-center gap-4">
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="rounded-lg border border-primary bg-transparent px-4 py-1 text-light hover:bg-primary"
-                >
-                  Github
-                </a>
-                <a
-                  href={project.website}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="rounded-lg border border-primary bg-transparent px-4 py-1 text-light hover:bg-primary"
-                >
-                  Website
-                </a>
+                {project.github !== "" && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="rounded-lg border border-primary bg-transparent px-4 py-1 text-light hover:bg-primary"
+                  >
+                    Github
+                  </a>
+                )}
+                {project.website !== "" && (
+                  <a
+                    href={project.website}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="rounded-lg border border-primary bg-transparent px-4 py-1 text-light hover:bg-primary"
+                  >
+                    Website
+                  </a>
+                )}
               </div>
               <p className="text-center text-xs text-light md:text-sm">
                 {project.description}
