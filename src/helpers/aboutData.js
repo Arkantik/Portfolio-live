@@ -3,12 +3,17 @@ const skills = [
   { id: 2, name: "css", icon: "../assets/icons/languages/css.svg" },
   { id: 3, name: "css", icon: "../assets/icons/languages/js.svg" },
   { id: 4, name: "react", icon: "../assets/icons/languages/react.svg" },
-  { id: 5, name: "vitejs", icon: "../assets/icons/languages/vitejs.svg" },
-  { id: 6, name: "tailwind", icon: "../assets/icons/languages/tailwind.svg" },
-  { id: 7, name: "sass", icon: "../assets/icons/languages/sass.svg" },
-  { id: 8, name: "nodejs", icon: "../assets/icons/languages/nodejs.svg" },
-  { id: 9, name: "express", icon: "../assets/icons/languages/express.svg" },
-  { id: 10, name: "mysql", icon: "../assets/icons/languages/mysql.svg" },
+  {
+    id: 5,
+    name: "typescript",
+    icon: "../assets/icons/languages/typescript.svg",
+  },
+  { id: 6, name: "vitejs", icon: "../assets/icons/languages/vitejs.svg" },
+  { id: 7, name: "tailwind", icon: "../assets/icons/languages/tailwind.svg" },
+  { id: 8, name: "sass", icon: "../assets/icons/languages/sass.svg" },
+  { id: 9, name: "nodejs", icon: "../assets/icons/languages/nodejs.svg" },
+  { id: 10, name: "express", icon: "../assets/icons/languages/express.svg" },
+  { id: 11, name: "mysql", icon: "../assets/icons/languages/mysql.svg" },
 ];
 
 const tools = [
