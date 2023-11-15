@@ -1,50 +1,36 @@
 [
   {
     "projectid": 1,
-    "name": "WildBook",
-    "description": "Responsive and mobile-first single-page site using HTML, CSS, and vanilla JS.This project was made within 2 weeks with only 2 weeks of experience in web dev.",
-    "img": "../assets/img/project/wildbook.png",
-    "github": "https://github.com/Arkantik/WildBook",
-    "website": "https://arkantik.github.io/WildBook/",
+    "name": "Origins E-sport",
+    "description": "Origins E-Sport combines the cutting-edge technologies and experiences of all E-Sports games and On-Rewind! This project was a request of Origins Digital.",
+    "img": "../assets/img/project/origins.png",
+    "github": "https://github.com/Arkantik/Origins-Esport",
+    "website": "https://origins-e-sport.remote-fr-2.wilders.dev/",
     "tool": "../assets/icons/tools/figma.svg",
     "techno_images": [
-      "../assets/icons/languages/html.svg",
       "../assets/icons/languages/css.svg",
-      "../assets/icons/languages/js.svg"
+      "../assets/icons/languages/react.svg",
+      "../assets/icons/languages/tailwind.svg",
+      "../assets/icons/languages/nodejs.svg",
+      "../assets/icons/languages/mysql.svg"
     ]
   },
   {
     "projectid": 2,
-    "name": "Hogwarts Magic Cards",
-    "description": "Flash-game type website using ReactJS, a CSS framework (Tailwind), and integrating an API. This website is a strategy turn by turn card game set in the world of Harry Potter.",
-    "img": "../assets/img/project/hogwarts.png",
-    "github": "https://github.com/Arkantik/hogwarts-magic-cards",
-    "website": "https://arkantik.github.io/hogwarts-magic-cards/",
+    "name": "Nodewar.gg",
+    "description": "Nodewar.gg is a platform dedicated to the video game Black Desert Online, providing the community with information pertaining to PvP activities.",
+    "img": "../assets/img/project/nodewar.png",
+    "github": "",
+    "website": "https://nodewar.gg/",
     "tool": "../assets/icons/tools/figma.svg",
     "techno_images": [
-      "../assets/icons/languages/html.svg",
-      "../assets/icons/languages/css.svg",
       "../assets/icons/languages/react.svg",
+      "../assets/icons/languages/typescript.svg",
       "../assets/icons/languages/tailwind.svg"
     ]
   },
   {
     "projectid": 3,
-    "name": "HoliFun",
-    "description": "No idea where to go for your next vacation? HoliFun is made for you! Project developped during a 36h Hackathon, with the objective to build something about vacation and using an API.",
-    "img": "../assets/img/project/holifun.png",
-    "github": "https://github.com/Arkantik/holifun",
-    "website": "https://arkantik.github.io/holifun/",
-    "tool": "",
-    "techno_images": [
-      "../assets/icons/languages/html.svg",
-      "../assets/icons/languages/css.svg",
-      "../assets/icons/languages/react.svg",
-      "../assets/icons/languages/tailwind.svg"
-    ]
-  },
-  {
-    "projectid": 4,
     "name": "Emmaüs Connect",
     "description": "This intranet application allows Emmaus Connect volunteers to log in with their credentials, register smartphones intended for sale through a form, and access the database. Project developped during a 48h Hackathon",
     "img": "../assets/img/project/emmaus-connect.png",
@@ -60,19 +46,47 @@
     ]
   },
   {
-    "projectid": 5,
-    "name": "Origins E-sport",
-    "description": "Origins E-Sport combines the cutting-edge technologies and experiences of all E-Sports games and On-Rewind! This project was a request of Origins Digital.",
-    "img": "../assets/img/project/origins.png",
-    "github": "https://github.com/Arkantik/Origins-Esport",
-    "website": "https://origins-e-sport.remote-fr-2.wilders.dev/",
-    "tool": "../assets/icons/tools/figma.svg",
+    "projectid": 4,
+    "name": "HoliFun",
+    "description": "No idea where to go for your next vacation? HoliFun is made for you! Project developped during a 36h Hackathon, with the objective to build something about vacation and using an API.",
+    "img": "../assets/img/project/holifun.png",
+    "github": "https://github.com/Arkantik/holifun",
+    "website": "https://arkantik.github.io/holifun/",
+    "tool": "",
     "techno_images": [
+      "../assets/icons/languages/html.svg",
       "../assets/icons/languages/css.svg",
       "../assets/icons/languages/react.svg",
-      "../assets/icons/languages/tailwind.svg",
-      "../assets/icons/languages/nodejs.svg",
-      "../assets/icons/languages/mysql.svg"
+      "../assets/icons/languages/tailwind.svg"
+    ]
+  },
+  {
+    "projectid": 5,
+    "name": "Hogwarts Magic Cards",
+    "description": "Flash-game type website using ReactJS, a CSS framework (Tailwind), and integrating an API. This website is a strategy turn by turn card game set in the world of Harry Potter.",
+    "img": "../assets/img/project/hogwarts.png",
+    "github": "https://github.com/Arkantik/hogwarts-magic-cards",
+    "website": "https://arkantik.github.io/hogwarts-magic-cards/",
+    "tool": "../assets/icons/tools/figma.svg",
+    "techno_images": [
+      "../assets/icons/languages/html.svg",
+      "../assets/icons/languages/css.svg",
+      "../assets/icons/languages/react.svg",
+      "../assets/icons/languages/tailwind.svg"
+    ]
+  },
+  {
+    "projectid": 6,
+    "name": "WildBook",
+    "description": "Responsive and mobile-first single-page site using HTML, CSS, and vanilla JS.This project was made within 2 weeks with only 2 weeks of experience in web dev.",
+    "img": "../assets/img/project/wildbook.png",
+    "github": "https://github.com/Arkantik/WildBook",
+    "website": "https://arkantik.github.io/WildBook/",
+    "tool": "../assets/icons/tools/figma.svg",
+    "techno_images": [
+      "../assets/icons/languages/html.svg",
+      "../assets/icons/languages/css.svg",
+      "../assets/icons/languages/js.svg"
     ]
   }
 ]

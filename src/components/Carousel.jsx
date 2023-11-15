@@ -20,7 +20,7 @@ export default function Carousel({ projects }) {
         effect="coverflow"
         grabCursor
         centeredSlides
-        initialSlide={1}
+        initialSlide={0}
         slidesPerView="auto"
         coverflowEffect={{
           rotate: 0,
@@ -70,7 +70,7 @@ export default function Carousel({ projects }) {
                     href={project.github}
                     target="_blank"
                     rel="noreferrer"
-                    className="rounded-lg border border-primary bg-transparent px-4 py-1 text-light hover:bg-primary"
+                    className="hover-animation rounded-lg border border-primary bg-transparent px-4 py-1 text-light"
                   >
                     Github
                   </a>
@@ -80,7 +80,7 @@ export default function Carousel({ projects }) {
                     href={project.website}
                     target="_blank"
                     rel="noreferrer"
-                    className="rounded-lg border border-primary bg-transparent px-4 py-1 text-light hover:bg-primary"
+                    className="hover-animation rounded-lg border border-primary bg-transparent px-4 py-1 text-light"
                   >
                     Website
                   </a>
