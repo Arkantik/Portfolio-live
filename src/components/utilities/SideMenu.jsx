@@ -2,7 +2,6 @@
 import {
   BsFillHouseFill,
   BsPatchQuestionFill,
-  BsClockHistory,
   BsFillEasel2Fill,
   BsChatSquareQuoteFill,
   BsEnvelopeFill,
@@ -15,15 +14,14 @@ import smoothScrollTo from "../../helpers/smoothScroll";
 const navData = [
   { id: 1, name: "home", path: "#home", icon: <BsFillHouseFill /> },
   { id: 2, name: "about", path: "#about", icon: <BsPatchQuestionFill /> },
-  { id: 3, name: "timeline", path: "#timeline", icon: <BsClockHistory /> },
-  { id: 4, name: "project", path: "#project", icon: <BsFillEasel2Fill /> },
+  { id: 3, name: "project", path: "#project", icon: <BsFillEasel2Fill /> },
   {
-    id: 5,
+    id: 4,
     name: "testimonial",
     path: "#testimonial",
     icon: <BsChatSquareQuoteFill />,
   },
-  { id: 6, name: "contact", path: "#contact", icon: <BsEnvelopeFill /> },
+  { id: 5, name: "contact", path: "#contact", icon: <BsEnvelopeFill /> },
 ];
 
 export default function SideMenu() {
@@ -91,7 +89,7 @@ export default function SideMenu() {
               activeItem === link.name
                 ? "scale-125 text-primary duration-300"
                 : "text-dark"
-            } hover:scale-125 hover:text-primary`}
+            } hover:scale-125 hover:text-primary hover:duration-300`}
           >
             {link.icon}
           </a>

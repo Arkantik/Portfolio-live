@@ -40,7 +40,7 @@ export default function Navbar() {
               target="_blank"
               rel="noreferrer"
             >
-              <BsGithub className="rounded bg-transparent p-1.5 text-xl text-light hover:bg-primary" />
+              <BsGithub className="hover-animation rounded bg-transparent p-1.5 text-xl text-light" />
             </a>
           </li>
           <li>
@@ -49,12 +49,12 @@ export default function Navbar() {
               target="_blank"
               rel="noreferrer"
             >
-              <BsLinkedin className="rounded bg-transparent p-1.5 text-xl text-light hover:bg-primary" />
+              <BsLinkedin className="hover-animation rounded bg-transparent p-1.5 text-xl text-light" />
             </a>
           </li>
           <li>
             <a href="../assets/document/resume-JeremyDohin.pdf" download>
-              <BsFillFileEarmarkPersonFill className="rounded bg-transparent p-1.5 text-xl text-light hover:bg-primary" />
+              <BsFillFileEarmarkPersonFill className="hover-animation rounded bg-transparent p-1.5 text-xl text-light" />
             </a>
           </li>
         </ul>
@@ -83,15 +83,6 @@ export default function Navbar() {
                   onClick={toggleNavMenu}
                 >
                   About me
-                </a>
-              </li>
-              <li>
-                <a
-                  className={`${style.nav_link}`}
-                  href="#timeline"
-                  onClick={toggleNavMenu}
-                >
-                  Timeline
                 </a>
               </li>
               <li>

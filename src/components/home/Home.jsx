@@ -102,52 +102,28 @@ export default function Home() {
           expectations.
         </p>
       </div>
-      <div className={`${style.circle_one}`}>
-        <span data-tootik="About me" data-tootik-conf="left dark square shadow">
-          <a href="#about" onClick={() => smoothScrollTo("#about", 80)}>
-            <span className={`${style.animated_circle_one} relative`} />
-          </a>
-        </span>
+      <div className={`${style.circle_one} hidden md:flex`}>
+        <a href="#about" onClick={() => smoothScrollTo("#about", 80)}>
+          <span className={`${style.animated_circle_one} relative`} />
+        </a>
       </div>
-      <div className={`${style.circle_two}`}>
-        <span data-tootik="Timeline" data-tootik-conf="dark square shadow">
-          <a href="#timeline" onClick={() => smoothScrollTo("#timeline", 0)}>
-            <span className={`${style.animated_circle_two} relative`} />
-          </a>
-        </span>
+      <div className={`${style.circle_two} hidden md:flex`}>
+        <a href="#project" onClick={() => smoothScrollTo("#project", offset)}>
+          <span className={`${style.animated_circle_three} relative`} />
+        </a>
       </div>
-      <div className={`${style.circle_three}`}>
-        <span
-          data-tootik="Projects"
-          data-tootik-conf="right dark square shadow"
+      <div className={`${style.circle_three} hidden md:flex`}>
+        <a
+          href="#testimonial"
+          onClick={() => smoothScrollTo("#testimonial", offset)}
         >
-          <a href="#project" onClick={() => smoothScrollTo("#project", offset)}>
-            <span className={`${style.animated_circle_three} relative`} />
-          </a>
-        </span>
+          <span className={`${style.animated_circle_four} relative`} />
+        </a>
       </div>
-      <div className={`${style.circle_four}`}>
-        <span
-          data-tootik="Testimonials"
-          data-tootik-conf="bottomR dark square shadow"
-        >
-          <a
-            href="#testimonial"
-            onClick={() => smoothScrollTo("#testimonial", offset)}
-          >
-            <span className={`${style.animated_circle_four} relative`} />
-          </a>
-        </span>
-      </div>
-      <div className={`${style.circle_five}`}>
-        <span
-          data-tootik="Contact"
-          data-tootik-conf="bottomL dark square shadow"
-        >
-          <a href="#contact" onClick={() => smoothScrollTo("#contact", 0)}>
-            <span className={`${style.animated_circle_five} relative`} />
-          </a>
-        </span>
+      <div className={`${style.circle_four} hidden md:flex`}>
+        <a href="#contact" onClick={() => smoothScrollTo("#contact", 0)}>
+          <span className={`${style.animated_circle_five} relative`} />
+        </a>
       </div>
     </article>
   );
