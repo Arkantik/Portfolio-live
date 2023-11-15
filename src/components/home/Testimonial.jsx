@@ -91,7 +91,7 @@ export default function Testimonials() {
           >
             <h4 className="font-main text-lg text-primary">Anthony Gorski</h4>
             <a href="https://www.linkedin.com/in/anthony-gorski/">
-              <BsLinkedin className="rounded bg-transparent p-1.5 text-xl text-light hover:bg-primary" />
+              <BsLinkedin className="hover-animation rounded bg-transparent p-1.5 text-xl text-light" />
             </a>
           </div>
         </div>
@@ -117,7 +117,7 @@ export default function Testimonials() {
           >
             <h4 className="font-main text-lg text-primary">Ingrid Freire</h4>
             <a href="https://www.linkedin.com/in/ingrid-freire-2a00b31b7/">
-              <BsLinkedin className="rounded bg-transparent p-1.5 text-xl text-light hover:bg-primary" />
+              <BsLinkedin className="hover-animation rounded bg-transparent p-1.5 text-xl text-light" />
             </a>
           </div>
         </div>

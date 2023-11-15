@@ -85,7 +85,12 @@ export default function About() {
               {skills.map((skill) => (
                 <li key={skill.id} className="m-2 inline-flex">
                   <div className="rounded-lg border-l border-t border-light/30 bg-light/10 p-2 backdrop-blur-sm">
-                    <img src={skill.icon} alt={skill.name} className="w-14" />
+                    <img
+                      src={skill.icon}
+                      alt={skill.name}
+                      title={skill.name}
+                      className="w-14"
+                    />
                   </div>
                 </li>
               ))}
@@ -96,7 +101,12 @@ export default function About() {
               {tools.map((tool) => (
                 <li key={tool.id} className="m-2 inline-flex">
                   <div className="rounded-lg border-l border-t border-light/30 bg-light/10 p-2 backdrop-blur-sm">
-                    <img src={tool.icon} alt={tool.name} className="w-14" />
+                    <img
+                      src={tool.icon}
+                      alt={tool.name}
+                      title={tool.name}
+                      className="w-14"
+                    />
                   </div>
                 </li>
               ))}
