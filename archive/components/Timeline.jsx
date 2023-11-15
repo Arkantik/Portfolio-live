@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 
 // Components
-import Bulb from "../Bulb";
+import Bulb from "../../src/components/Bulb";
 
 export default function Timeline() {
   const h2El = useRef(null);
