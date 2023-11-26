@@ -90,7 +90,10 @@ export default function Testimonials() {
             ref={testimonialName}
           >
             <h4 className="font-main text-lg text-primary">Anthony Gorski</h4>
-            <a href="https://www.linkedin.com/in/anthony-gorski/">
+            <a
+              href="https://www.linkedin.com/in/anthony-gorski/"
+              aria-label="linkedin anthony gorski"
+            >
               <BsLinkedin className="hover-animation rounded bg-transparent p-1.5 text-xl text-light" />
             </a>
           </div>
@@ -116,7 +119,10 @@ export default function Testimonials() {
             ref={testimonial2Name}
           >
             <h4 className="font-main text-lg text-primary">Ingrid Freire</h4>
-            <a href="https://www.linkedin.com/in/ingrid-freire-2a00b31b7/">
+            <a
+              href="https://www.linkedin.com/in/ingrid-freire-2a00b31b7/"
+              aria-label="linkedin ingrid freire"
+            >
               <BsLinkedin className="hover-animation rounded bg-transparent p-1.5 text-xl text-light" />
             </a>
           </div>

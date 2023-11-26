@@ -14,6 +14,7 @@ export default function MobileMenu({ onClick }) {
       type="button"
       className="group relative block md:hidden"
       onClick={toggleMenu}
+      name="mobile menu"
     >
       <div
         className={`relative flex h-[50px] w-[50px] transform items-center justify-center overflow-hidden rounded-full shadow-md ring-0 ring-primary ring-opacity-30 transition-all duration-200 hover:ring-8 group-focus:ring-2 ${

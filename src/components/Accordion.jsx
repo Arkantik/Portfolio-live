@@ -53,7 +53,6 @@ export default function Accordion() {
             </svg>
           </button>
         </h2>
-
         <div
           className={`${style.accordion_content} ${
             activePanel === "panel1-content" ? style.active : ""
@@ -69,13 +68,14 @@ export default function Accordion() {
           </p>
           <img
             className={style.accordion_image}
-            src="../assets/img/about/crypto.avif"
+            src="../assets/img/about/crypto.webp"
             alt="crypto coins"
           />
         </div>
       </div>
+
       <div className={style.accordion_panel}>
-        <h2 id="panel2-heading">
+        <h2 id="panel1-heading">
           <button
             type="button"
             className={style.accordion_trigger}
@@ -91,7 +91,6 @@ export default function Accordion() {
             </svg>
           </button>
         </h2>
-
         <div
           className={`${style.accordion_content} ${
             activePanel === "panel2-content" ? style.active : ""
@@ -107,11 +106,12 @@ export default function Accordion() {
           </p>
           <img
             className={style.accordion_image}
-            src="../assets/img/about/travel2.jpg"
+            src="../assets/img/about/travel2.webp"
             alt="travel map"
           />
         </div>
       </div>
+
       <div className={style.accordion_panel}>
         <h2>
           <button
@@ -120,7 +120,7 @@ export default function Accordion() {
             onClick={() => toggleAccordion("panel3-content")}
             aria-expanded={activePanel === "panel3-content"}
           >
-            <span className={style.accordion_title} id="panel2-title">
+            <span className={style.accordion_title} id="panel3-title">
               Gaming
             </span>
             <svg viewBox="0 0 64 64" className={style.accordion_icon}>
@@ -129,12 +129,11 @@ export default function Accordion() {
             </svg>
           </button>
         </h2>
-
         <div
           className={`${style.accordion_content} ${
             activePanel === "panel3-content" ? style.active : ""
           }`}
-          id="panel2-content"
+          id="panel3-content"
           aria-labelledby="panel3-heading"
           aria-hidden={activePanel !== "panel3-content"}
         >
@@ -145,21 +144,22 @@ export default function Accordion() {
           </p>
           <img
             className={style.accordion_image}
-            src="../assets/img/about/games.jpg"
+            src="../assets/img/about/games.webp"
             alt="gaming room"
           />
         </div>
       </div>
+
       <div className={style.accordion_panel}>
         <h2 id="panel4-heading">
           <button
             type="button"
             className={style.accordion_trigger}
             onClick={() => toggleAccordion("panel4-content")}
-            aria-controls="panel2-content"
+            aria-controls="panel4-content"
             aria-expanded={activePanel === "panel4-content"}
           >
-            <span className={style.accordion_title} id="panel2-title">
+            <span className={style.accordion_title} id="panel4-title">
               Design
             </span>
             <svg viewBox="0 0 325.04 325.04" className={style.accordion_icon}>
@@ -170,12 +170,11 @@ export default function Accordion() {
             </svg>
           </button>
         </h2>
-
         <div
           className={`${style.accordion_content} ${
             activePanel === "panel4-content" ? style.active : ""
           }`}
-          id="panel2-content"
+          id="panel4-content"
           aria-labelledby="panel4-heading"
           aria-hidden={activePanel !== "panel4-content"}
         >
@@ -187,7 +186,7 @@ export default function Accordion() {
           </p>
           <img
             className={style.accordion_image}
-            src="../assets/img/about/design.jpg"
+            src="../assets/img/about/design.webp"
             alt="closeup of a metal chain connected to a metal ring in the ground"
           />
         </div>
